@@ -4,5 +4,6 @@ public class OppgaveV2 {
 	
 	public static void main(String[]args) {
 		System.out.println("Dette funker!!");
+		System.out.println("Hey");
 	}
 }
