@@ -5,7 +5,7 @@ import static javax.swing.JOptionPane.*;
 public class OppgaveB5 {
 	
 	public static void main(String[]args) {
-		
+		// Skal man skrive ut alle karakterene samtidig?
 		for (int i = 0; i < 2;) {
 			
 			String poengsumTxt = showInputDialog("Poengsum på prøve: ");
