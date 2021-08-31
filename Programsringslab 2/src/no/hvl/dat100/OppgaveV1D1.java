@@ -21,7 +21,7 @@ public class OppgaveV1D1 {
 				showMessageDialog(null, "Tallene i stigende rekkefølge: " + tall2 + ", " + tall3 + ", " + tall1);
 			}
 		}
-		if (tall2 > tall1 && tall2 > tall3) {
+		if (tall2 >= tall1 && tall2 >= tall3) {
 			if (tall1 > tall3) {
 				showMessageDialog(null, "Tallene i stigende rekkefølge: " + tall3 + ", " + tall1 + ", " + tall2);			
 			}
@@ -30,7 +30,7 @@ public class OppgaveV1D1 {
 			}
 			
 		}	
-		if (tall3 > tall1 && tall3 > tall2) {
+		if (tall3 >= tall1 && tall3 >= tall2) {
 			if (tall1 > tall2) {
 				showMessageDialog(null, "Tallene i stigende rekkefølge: " + tall2 + ", " + tall1 + ", " + tall3);			
 			}
