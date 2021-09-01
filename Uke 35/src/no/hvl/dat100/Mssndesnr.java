@@ -8,7 +8,6 @@ public class Mssndesnr {
 		int mnd = 0;
 		boolean uloveligmnd = false;
 		
-		
 		do {
 			mnd = Integer.parseInt(showInputDialog("Mndnr : "));
 			uloveligmnd = mnd < 1 || mnd > 12;
