@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package no.hvl.dat100;
 
 import static javax.swing.JOptionPane.*;
@@ -18,14 +17,3 @@ public class OppgaveG3 {
 	}
 
 }
-=======
-package no.hvl.dat100;
-
-public class OppgaveG3 {
-	
-	public static void main(String[]args) {
-		
-	}
-
-}
->>>>>>> branch 'master' of git@github.com:594760/DAT100.git
