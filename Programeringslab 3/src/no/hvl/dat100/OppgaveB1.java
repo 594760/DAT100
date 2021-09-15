@@ -3,8 +3,6 @@ package no.hvl.dat100;
 import static java.lang.Integer.parseInt;
 import static javax.swing.JOptionPane.*;
 
-import sun.tools.jconsole.MaximizableInternalFrame;
-
 public class OppgaveB1 {
 	public static void main(String[] args) {
 		int lowerLimit = minNumber();
@@ -29,7 +27,9 @@ public class OppgaveB1 {
 		String numbersOdd= "";
 		for (int i = startNumber; i <= endNumber;) {
 			if (i % 2 == 1) {
-				numbersOdd = numbersOdd + ", " + String.valueOf(i); 
+				numbersOdd = numbersOdd + String.valueOf(i);
+				if (i != endNumber)
+					numbersOdd = numbersOdd + ", ";
 			}
 			i++;
 		}
