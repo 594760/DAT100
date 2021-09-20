@@ -17,12 +17,11 @@ public class OppgaveG1G {
 	
 	public static boolean finnes(int [] tabell, int tall) {
 		int i = 0;
-		boolean finnesDet = false;
-		while (!finnesDet && i < tabell.length) {
+		while (i < tabell.length) {
 			if (tabell[i] == tall)
-				finnesDet = true;
-				i++;
+				return true;
+			i++;
 			}
-		return finnesDet;
+		return false;
 		}
 	}

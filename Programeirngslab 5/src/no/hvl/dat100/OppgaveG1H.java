@@ -21,13 +21,12 @@ public class OppgaveG1H {
 	
 	public static boolean finnes(int [] tabell, int tall) {
 		int i = 0;
-		boolean finnesDet = false;
-		while (!finnesDet && i < tabell.length) {
+		while (i < tabell.length) {
 			if (tabell[i] == tall)
-				finnesDet = true;
+				return true;
 				i++;
 			}
-		return finnesDet;
+		return false;
 		}
 	public static int [] skifteForteng(int [] tabell) {
 		
