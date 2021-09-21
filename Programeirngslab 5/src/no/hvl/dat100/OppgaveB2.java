@@ -4,16 +4,10 @@ import static java.lang.Integer.parseInt;
 import static javax.swing.JOptionPane.*;
 
 
-public class OppgaveB2A {
+public class OppgaveB2 {
 	public static void main(String[] args) {
-		int tall = lesInnTall(showInputDialog("Tall: "));
-		showMessageDialog(null, tall);
-		
-		String breddeStr = showInputDialog("Bredde:");
-		int bredde = parseInt(breddeStr);
-
-		String hoydeStr = showInputDialog("Høyde:");
-		int hoyde = parseInt(hoydeStr);
+		int bredde = lesInnTall("Bredde: ");
+		int hoyde = lesInnTall("Høyde:");
 
 		int a = areal(bredde,hoyde);
 
@@ -28,7 +22,7 @@ public class OppgaveB2A {
 	}
 	
 	private static int lesInnTall(String message) {
-		int tall = parseInt(message);
+		int tall = parseInt(showInputDialog(message));
 		return tall;
 	}
 }

@@ -15,25 +15,22 @@ public class OppgaveB1 {
 				System.out.println("  x i grader  x i radianer    sin(x)    cos(x)");
 				System.out.println("------------------------------------------------");
 			}
-			int j = 0;
-			while (j < 1) {
-				if (xGrader[i] < 10)
-					System.out.print("           " + xGrader[i]);
-				else if (xGrader[i] < 100)
-					System.out.print("          " + xGrader[i]);
-				else
-					System.out.print("         " + xGrader[i]);
-				System.out.print("       " + String.format("%.3f", xRadianer[i]));
-				System.out.print("      " + String.format("%.3f", sinX[i]));
-				
-				if (cosX[i] > 0)
-					System.out.println("      " + String.format("%.3f", cosX[i]));
-				else
-					System.out.println("     " + String.format("%.3f", cosX[i]));
-				//System.out.println();
-				j++;
-				
-			}
+		
+			if (xGrader[i] < 10)
+				System.out.print("           " + xGrader[i]);
+			else if (xGrader[i] < 100)
+				System.out.print("          " + xGrader[i]);
+			else
+				System.out.print("         " + xGrader[i]);
+			
+			System.out.print("       " + String.format("%.3f", xRadianer[i]));
+			System.out.print("      " + String.format("%.3f", sinX[i]));
+			
+			if (cosX[i] > 0)
+				System.out.println("      " + String.format("%.3f", cosX[i]));
+			else
+				System.out.println("     " + String.format("%.3f", cosX[i]));
+		
 			if (i == (xGrader.length - 1))
 				System.out.println("------------------------------------------------");
 		}
