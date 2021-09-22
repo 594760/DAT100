@@ -26,7 +26,7 @@ public class OppgaveB3 extends EasyGraphics {
 		for (int i = 0; i < 11; i++) {
 			if (i != 10) {
 				drawRectangle(x, y, bredde, hoyde);
-				x = x+ bredde;
+				x = x + bredde;
 			}
 			else {
 				drawRectangle(x, y, bredde/2, hoyde);
