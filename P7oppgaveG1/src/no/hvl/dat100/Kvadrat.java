@@ -1,11 +1,16 @@
 package no.hvl.dat100;
 
-
+/**
+ * lager et kvadrat X*X.
+ * 
+ * @author Stein Olav
+ *   
+ */
 public class Kvadrat {
 	int sidelengde;
 	
-	public Kvadrat(int a) {
-		sidelengde = a;
+	public Kvadrat(int sidelendgde) {
+		this.sidelengde = sidelendgde;
 	}
 	
 	public void skrivUt() {
@@ -25,7 +30,7 @@ public class Kvadrat {
 	}
 	
 	public int omkretsen() {
-		int sum = sidelengde + sidelengde;
+		int sum = sidelengde * 4;
 		return sum;
 	}
 	
