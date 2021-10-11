@@ -12,16 +12,16 @@ public class Konto {
 	public int getKontoNr() {
 		return kontonr;
 	}
-	
+
 	public double getSaldo() {
 		return saldo;
 	}
-	
+
 	public double sjekkeSaldo() {
 		return saldo;
 	}
 
-	public void setSaldo(Double beløp) {
+	public void setSaldo(double beløp) {
 		saldo += beløp;
 	}
 

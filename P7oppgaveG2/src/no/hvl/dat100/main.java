@@ -5,6 +5,8 @@ public class main {
 		Konto k1 = new Konto(2451, 35000);
 		Konto k2 = new Konto(2561, 23500);
 		Konto k3 = new Konto(2345, 6578.65);
-
+		
+		
+		
 	}
 }
